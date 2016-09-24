@@ -1,0 +1,23 @@
+package mattiemonster.megablock.main;
+
+// import com.badlogic.gdx.ApplicationAdapter;
+import com.badlogic.gdx.Game;
+
+import mattiemonster.megablock.main.states.play.PlayFullControl;
+
+public class Megablock extends Game {
+	
+	@Override
+	public void create() {
+		setScreen(new PlayFullControl(this));
+	}
+
+	@Override
+	public void render() {
+		
+	}
+	
+	@Override
+	public void dispose() {
+	}
+}

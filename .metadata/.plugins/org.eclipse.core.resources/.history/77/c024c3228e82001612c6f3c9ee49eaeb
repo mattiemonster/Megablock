@@ -1,0 +1,9 @@
+package mattiemonster.megablock.main.universe;
+
+public class Universe {
+
+	public Universe() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
