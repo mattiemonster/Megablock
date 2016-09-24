@@ -5,13 +5,10 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 
 import mattiemonster.megablock.main.Megablock;
-import mattiemonster.megablock.main.universe.Universe;
 
 public class PlayFullControl implements Screen {
 	
 	public Megablock megablock;
-	
-	public Universe uniOververse;
 
 	public PlayFullControl(Megablock megablock) {
 		this.megablock = megablock;
@@ -19,16 +16,13 @@ public class PlayFullControl implements Screen {
 
 	@Override
 	public void show() {
-		uniOververse = new Universe();
-		uniOververse.init();
+
 	}
 
 	@Override
 	public void render(float delta) {
 		Gdx.gl.glClearColor(0, 1, 1, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		
-		uniOververse.render(delta);
 	}
 
 	@Override
@@ -54,8 +48,6 @@ public class PlayFullControl implements Screen {
 	@Override
 	public void dispose() {
 		System.out.println("Internal:	PlayFullControl: Disposing state");
-		
-		uniOververse.dispose();
 	}
 
 }
