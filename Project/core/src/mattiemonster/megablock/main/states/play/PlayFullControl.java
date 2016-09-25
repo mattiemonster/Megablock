@@ -19,7 +19,7 @@ public class PlayFullControl implements Screen {
 
 	@Override
 	public void show() {
-		uniOververse = new Universe();
+		uniOververse = new Universe(100, 100);
 		uniOververse.init();
 	}
 

@@ -1,0 +1,9 @@
+package mattiemonster.megablock.engine;
+
+public class MegablockEngine {
+
+	public MegablockEngine() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

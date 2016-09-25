@@ -1,9 +1,14 @@
 package mattiemonster.megablock.main.universe;
 
 public class Universe {
+	
+	private int uniWidth, uniHeight;
 
-	public Universe() {
+	public Universe(int uniWidth, int uniHeight) {
 		System.out.println("Universe created");
+		System.out.println("Universe width: " + uniWidth + ", Universe height: " + uniHeight);
+		this.uniWidth = uniWidth;
+		this.uniHeight = uniHeight;
 	}
 
 	public void init() {
