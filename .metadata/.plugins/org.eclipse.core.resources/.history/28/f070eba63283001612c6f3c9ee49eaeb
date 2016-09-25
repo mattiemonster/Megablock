@@ -1,9 +1,0 @@
-package mattiemonster.megablock;
-
-public class MessageNotImplemented {
-
-	public MessageNotImplemented() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

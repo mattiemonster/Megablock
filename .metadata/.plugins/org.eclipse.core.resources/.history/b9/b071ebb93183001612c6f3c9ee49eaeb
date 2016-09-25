@@ -1,9 +1,0 @@
-package mattiemonster.megablock.engine;
-
-public class MegablockLog {
-
-	public MegablockLog() {
-		System.out.println("Logger object created!");
-	}
-
-}

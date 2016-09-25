@@ -1,9 +1,0 @@
-package mattiemonster.megablock.engine;
-
-public class MegablockMath {
-
-	public MegablockMath() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

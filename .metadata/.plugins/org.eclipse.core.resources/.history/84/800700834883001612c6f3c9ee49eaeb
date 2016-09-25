@@ -1,9 +1,0 @@
-package mattiemonster.megablock;
-
-public class MegablockDebugMessage {
-
-	public MegablockDebugMessage() {
-		
-	}
-
-}

@@ -1,9 +1,0 @@
-package mattiemonster.megablock.exception;
-
-public class ExceptionDebugNotInit {
-
-	public ExceptionDebugNotInit() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
