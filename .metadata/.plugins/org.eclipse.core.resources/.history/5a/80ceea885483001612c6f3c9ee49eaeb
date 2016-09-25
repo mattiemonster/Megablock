@@ -17,8 +17,6 @@ public class MegablockDebugMessage {
 	}
 	
 	public void init() {
-		init = true;
-		
 		System.out.println("Setting up debug messages.");
 		showMessages = false;
 		
