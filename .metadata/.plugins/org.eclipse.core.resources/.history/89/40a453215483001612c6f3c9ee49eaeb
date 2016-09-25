@@ -1,12 +1,9 @@
 package mattiemonster.megablock;
 
-import mattiemonster.megablock.exception.ExceptionDebugNotInit;
-
 public class MegablockDebugMessage {
 	
 	public static boolean showMessages;
 	public static boolean init = false;
-	public static boolean initexcep = false;
 
 	public MegablockDebugMessage() {
 		init = false;
@@ -27,39 +24,11 @@ public class MegablockDebugMessage {
 	}
 	
 	public void turnOn() {
-		if (!init) {
-			try {
-				initexcep = true;
-				throw new ExceptionDebugNotInit();
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		
-		if (initexcep) {
-			initexcep = false;
-			return;
-		}
-		
 		showMessages = true;
 		System.out.println("Debug messages turned on.");
 	}
 	
 	public void turnOff() {
-		if (!init) {
-			try {
-				initexcep = true;
-				throw new ExceptionDebugNotInit();
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		
-		if (initexcep) {
-			initexcep = false;
-			return;
-		}
-		
 		showMessages = false;
 		System.out.println("Debug messages turned off.");
 	}
