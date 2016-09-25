@@ -6,7 +6,7 @@ public class Universe {
 
 	public Universe(int uniWidth, int uniHeight) {
 		System.out.println("Universe created");
-		System.out.println("Universe size: " + uniWidth + ", " + uniHeight);
+		System.out.println("Universe size: " + uniWidth + ", Universe height: " + uniHeight);
 		this.uniWidth = uniWidth;
 		this.uniHeight = uniHeight;
 	}
