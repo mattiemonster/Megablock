@@ -4,7 +4,7 @@
 
 *.pydevproject
 .project
-.metadata
+.metadata/
 bin/
 tmp/
 *.tmp
@@ -214,3 +214,5 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+.metadata/.plugins/org.eclipse.core.resources/.projects/Megablock-desktop/.markers.snap
+.metadata/.plugins/org.eclipse.core.resources/.projects/Megablock-desktop/.syncinfo.snap
