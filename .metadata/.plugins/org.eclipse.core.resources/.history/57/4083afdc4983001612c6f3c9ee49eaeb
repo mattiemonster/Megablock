@@ -2,7 +2,6 @@ package mattiemonster.megablock.main.universe;
 
 public class Universe {
 	
-	@SuppressWarnings("unused")
 	private int uniWidth, uniHeight;
 
 	public Universe(int uniWidth, int uniHeight) {
