@@ -33,9 +33,5 @@ public class MegablockMath {
 	public double sub2double(double a, double b) {
 		return a - b;
 	}
-	
-	public double div2double(double a, double b) {
-		return a / b;
-	}
 
 }

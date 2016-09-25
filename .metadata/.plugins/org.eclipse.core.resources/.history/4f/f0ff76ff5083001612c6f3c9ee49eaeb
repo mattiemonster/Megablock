@@ -27,17 +27,5 @@ public class MegablockEngine {
 	public int d2(int a, int b) {
 		return math.div2(a, b);
 	}
-	
-	public double a2d(double a, double b) {
-		return math.add2double(a, b);
-	}
-	
-	public double s2d(double a, double b) {
-		return math.sub2double(a, b);
-	}
-	
-	public double d2d(double a, double b) {
-		return math.div2double(a, b);
-	}
 
 }
