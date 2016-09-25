@@ -10,15 +10,12 @@ import mattiemonster.megablock.main.states.play.PlayFullControl;
 
 public class Megablock extends Game {
 	
-	private MegablockDebugMessage messageState = new MegablockDebugMessage();
-	
 	@Override
 	public void create() {
 		MegablockLog log = new MegablockLog();
 		MegablockEngine engine = new MegablockEngine();
 		
-		messageState.init();
-		messageState.turnOn();
+		MegablockDebugMessage.
 		
 		log.createLog();
 		engine.init();

@@ -19,9 +19,5 @@ public class MegablockEngine {
 	public int a2(int a, int b) {
 		return math.add2(a, b);
 	}
-	
-	public int s2(int a, int b) {
-		return math.sub2(a, b);
-	}
 
 }

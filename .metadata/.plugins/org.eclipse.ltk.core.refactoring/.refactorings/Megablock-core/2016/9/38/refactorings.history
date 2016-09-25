@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;mattiemonster.megablock.MegablockDebugMessag&apos; to &apos;MegablockDebugMessage&apos;&#x0D;&#x0A;- Original project: &apos;Megablock-core&apos;&#x0D;&#x0A;- Original element: &apos;mattiemonster.megablock.MegablockDebugMessag&apos;&#x0D;&#x0A;- Renamed element: &apos;mattiemonster.megablock.MegablockDebugMessage&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MegablockDebugMessag&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;mattiemonster.megablock{MegablockDebugMessag.java[MegablockDebugMessag" matchStrategy="1" name="MegablockDebugMessage" qualified="false" references="true" similarDeclarations="false" stamp="1474825695387" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,9 @@
+package mattiemonster.megablock;
+
+public class MegablockDebugMessag {
+
+	public MegablockDebugMessag() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
